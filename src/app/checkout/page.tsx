@@ -12,6 +12,7 @@ const RAZORPAY_KEY = process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID || "";
 
 declare global {
   interface Window {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     Razorpay: any;
   }
 }
@@ -46,7 +47,7 @@ export default function CheckoutPage() {
         name: "AERON",
         description: "Order Payment",
         order_id: data.id,
-        handler: async (response: any) => {
+        handler: async (response: Record<string, unknown>) => {
           await fetch("/api/checkout/verify", {
             method: "POST",
             headers: { "Content-Type": "application/json" },

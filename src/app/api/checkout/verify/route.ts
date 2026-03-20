@@ -22,7 +22,7 @@ export async function POST(req: NextRequest) {
   const userId = session?.user?.id;
 
   if (userId) {
-    const total = orderData.items.reduce((s: number, i: any) => s + i.price * i.quantity, 0);
+    const total = orderData.items.reduce((s: number, i: { price: number; quantity: number }) => s + i.price * i.quantity, 0);
     await prisma.order.create({
       data: {
         userId,
@@ -31,7 +31,7 @@ export async function POST(req: NextRequest) {
         status: "PAID",
         address: JSON.stringify(orderData.address),
         items: {
-          create: orderData.items.map((item: any) => ({
+          create: orderData.items.map((item: { id: string; quantity: number; size: string; color: string; price: number }) => ({
             productId: item.id,
             quantity: item.quantity,
             size: item.size,

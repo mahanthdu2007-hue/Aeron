@@ -1,0 +1,26 @@
+﻿
+C:\Users\Mahanth D U\Documents\Aeron\src\app\api\checkout\verify\route.ts
+  25:57  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  34:46  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Mahanth D U\Documents\Aeron\src\app\careers\page.tsx
+  42:55  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  43:66  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\Mahanth D U\Documents\Aeron\src\app\checkout\page.tsx
+  15:15  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  49:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Mahanth D U\Documents\Aeron\src\app\returns\page.tsx
+  19:46  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  19:62  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\Mahanth D U\Documents\Aeron\src\app\search\page.tsx
+  31:32  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  31:40  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\Mahanth D U\Documents\Aeron\src\lib\auth.ts
+  41:31  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+Γ£û 11 problems (11 errors, 0 warnings)
+

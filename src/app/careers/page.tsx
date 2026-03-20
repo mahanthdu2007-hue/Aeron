@@ -39,8 +39,8 @@ export default function CareersPage() {
           </div>
           
           <div className="mt-16 bg-gray-100 rounded-2xl p-8 text-center">
-            <h3 className="text-xl font-bold mb-2">Don't see a fit?</h3>
-            <p className="text-gray-500 mb-6 max-w-sm mx-auto">We're always looking for exceptional talent. Send your portfolio and resume to us anyway.</p>
+            <h3 className="text-xl font-bold mb-2">Don&apos;t see a fit?</h3>
+            <p className="text-gray-500 mb-6 max-w-sm mx-auto">We&apos;re always looking for exceptional talent. Send your portfolio and resume to us anyway.</p>
             <a href="mailto:careers@aeron.style" className="inline-block bg-[#111] text-white px-8 py-3 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-black transition-colors">
               Email Us
             </a>

@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform, Variants } from "framer-motion";
 import { useRef } from "react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
@@ -11,11 +11,11 @@ export default function HeroSection() {
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "25%"]);
   const opacity = useTransform(scrollYProgress, [0, 0.7], [1, 0]);
 
-  const container = {
+  const container: Variants = {
     hidden: {},
     visible: { transition: { staggerChildren: 0.12 } },
   };
-  const item = {
+  const item: Variants = {
     hidden: { opacity: 0, y: 40 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] } },
   };

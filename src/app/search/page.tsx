@@ -28,7 +28,7 @@ export default function SearchPage() {
           
           <div className="text-gray-500">
             {query.length > 2 ? (
-              <p>Searching for "{query}"... (Demo mode: no results found)</p>
+              <p>Searching for &quot;{query}&quot;... (Demo mode: no results found)</p>
             ) : (
               <p>Type at least 3 characters to search.</p>
             )}

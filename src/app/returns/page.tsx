@@ -16,7 +16,7 @@ export default function ReturnsPage() {
             <h3 className="text-xl font-bold text-[#111]">How to Initiate a Return</h3>
             <ol className="list-decimal pl-5 mt-2 mb-6 space-y-2">
               <li>Log into your account and visit the Order History section.</li>
-              <li>Select the order and click "Initiate Return".</li>
+              <li>Select the order and click &quot;Initiate Return&quot;.</li>
               <li>Pack the items securely and attach the provided shipping label.</li>
               <li>Drop off the package at your nearest partner courier location.</li>
             </ol>
